@@ -1,4 +1,4 @@
-
+// SONAR: Duplicate start
 //** Declaracion de las librerias usadas en el codigo **//
 
 #include <iostream>
@@ -323,3 +323,4 @@ std::string buildIV() {
     //Se retorna el vector de inicializacion
     return iv;
 }
+// SONAR: Duplicate end
