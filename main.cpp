@@ -138,7 +138,7 @@ void encrypt(const std::string& input_path, const std::string& output_path) {
 
 //** Funcion que se encarga de desencriptar el archivo ubicado en input_path y guardar el resultado en output_path **//
 //** La funcion se encarga de verificar la integridad del archivo desencriptado e informar si fue corrompido o alterado **//
-//
+
 void decrypt(const std::string& input_path, const std::string& output_path) {
     //Se recupera la llave criptografica y el vector de inicializacion para usar AES CTR
     std::string key = buildKey();
