@@ -1,0 +1,5 @@
+src/cryptopp/libcryptopp.a
+src/cryptopp/*.o
+
+src/main.exe
+src/main.o
